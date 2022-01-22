@@ -1,0 +1,38 @@
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+
+    /* Flexbox to center everything H and V */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--grey);
+    display: block;
+}
+
+.searchFormBox {
+    width: 50%;
+    height: auto;
+    /* background-color: var(--navy); */
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.searchForm {
+    margin: 10px 10px 10px 10px;
+}
+
+#searchBtn {
+    display: flex;
+    margin: 20px auto 5px auto;
+    background-color: var(--orange);
+}
+
+.results {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}

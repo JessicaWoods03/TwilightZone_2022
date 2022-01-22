@@ -1,0 +1,26 @@
+.HomePage {
+    width: 100%;
+    height: 100%;
+}
+
+#btn {
+    display: flex;
+    margin: 20px auto 5px auto;
+    background-color: var(--orange);
+}
+
+#btnSecondary {
+    display: flex;
+    margin: 20px auto 5px auto;
+    background-color: var(--navy);
+}
+
+.pageBox {
+    width: 90%;
+    height: auto;
+    background-color: var(--navy);
+    border-radius: 5px;
+    margin: 40px auto 10px auto;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
