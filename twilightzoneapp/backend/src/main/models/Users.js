@@ -22,7 +22,7 @@ let UserSchema = new mongoose.Schema( {
         type: String,
         required: true,
         trim: true
-    }
+    },
     //adding changes to user login Jan 31st, 2022, added changes to Mongo as well
     email: {
         type: String,
